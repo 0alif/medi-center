@@ -1,0 +1,17 @@
+.web-name {
+  font-size: 40px;
+  color: goldenrod;
+  margin-right: 30px;
+}
+.navigation {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.nav-register {
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 30px;
+}
