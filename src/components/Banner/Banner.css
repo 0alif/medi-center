@@ -1,0 +1,20 @@
+.hero-img {
+  height: 100vh;
+  width: 100%;
+}
+.hero-text {
+  color: #f4b73c;
+  font-weight: bold;
+}
+.banner {
+  width: 50%;
+  top: 10%;
+  left: 5%;
+}
+.banner p {
+  color: black;
+}
+.hero-light {
+  color: black;
+  font-weight: 300;
+}
