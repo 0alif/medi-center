@@ -1,0 +1,44 @@
+[
+    {
+       "id":1,
+       "name":"PREVENTIVE CARE",
+       "details":"Specialist consultations, optometry and vision therapy, selection of lenses and glasses, children’s ophthalmology.",
+       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2021/05/image_10.jpg",
+       "description":"Effective and affordable treatment for non-life threatening illnesses"
+    },
+    {
+       "id":2,
+       "name":"DIAGNOSTICS TESTS",
+       "details":"Visual acuity test, intraocular pressure measurement, corneal thickness measurement, eye fundus examination.",
+       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_03-2.jpg",
+       "description":"Effective and affordable treatment for non-life threatening illnesses"
+    },
+    {
+       "id":3,
+       "name":"OPHTHALMIC TREATMENTS",
+       "details":"Laser treatments such as retinal laser coagulation, capsulotomy, and anti-glaucoma treatments.",
+       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_06.jpg",
+       "description":"Effective and affordable treatment for non-life threatening illnesses"
+    },
+    {
+       "id":4,
+       "name":"OPHTHALMIC SURGERIES",
+       "details":"Cataract and glaucoma surgeries, vitrectomy, strabismus suirgeries, and multi-pediatric and combined surgeries.",
+       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2021/05/image_09.jpg",
+       "description":"Effective and affordable treatment for non-life threatening illnesses"
+    },
+    {
+       "id":5,
+       "name":"PEDIATRIC SERVICES",
+       "details":"Dedicated to helping you and your child stay healthy through every milestone",
+       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_04-1.jpg",
+       "description":"Effective and affordable treatment for non-life threatening illnesses"
+    },
+    {
+       "id":6,
+       "name":"PHYSICAL THERAPY",
+       "details":"Reduce pain, restore function to the body and prevent future injury",
+       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_05.jpg",
+       "description":"Effective and affordable treatment for non-life threatening illnesses"
+    }
+ ]

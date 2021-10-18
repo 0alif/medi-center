@@ -12,9 +12,10 @@
   left: 5%;
 }
 .banner p {
-  color: black;
+  color: #0c0d0e;
+  font-weight: 500;
 }
 .hero-light {
-  color: black;
-  font-weight: 300;
+  color: #000000;
+  font-weight: 400;
 }

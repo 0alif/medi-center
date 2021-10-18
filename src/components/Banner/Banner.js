@@ -1,9 +1,7 @@
 import React from 'react';
 import './Banner.css';
-
 import img1 from '../../images/slide1.jpg';
 import img2 from '../../images/slide2.jpg';
-
 
 const Banner = () => {
     return (
@@ -21,6 +19,7 @@ const Banner = () => {
                             <h1 className="hero-light">Your Future is Clear</h1>
                             <h1 className="hero-text">Ophthalmic Clinic</h1>
                             <p>Welcome to Medicenter, a professor and expert clinic for comprehensive diagnostic and modern treatment of eye diseases and vision defects in adults and children.</p>
+                            <button className="btn btn-secondary">Show More →</button>
                         </div>
                     </div>
                     <div className="carousel-item">
@@ -29,6 +28,7 @@ const Banner = () => {
                             <h1 className="hero-light">The Best Specialists</h1>
                             <h1 className="hero-text">In On Place</h1>
                             <p>Welcome to Medicenter, a professor and expert clinic for comprehensive diagnostic and modern treatment of eye diseases and vision defects in adults and children.</p>
+                            <button className="btn btn-secondary">Show More →</button>
                         </div>
                     </div>
                 </div>
