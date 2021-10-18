@@ -15,7 +15,7 @@ const Service = ({ product }) => {
 
     return (
         <div>
-            <div className="col">
+            <div className="col cards">
                 <div className="product-card">
                     <img src={img} className="card-img-top" alt="..." />
                     <div className="card-body">

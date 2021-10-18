@@ -7,7 +7,7 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <div>
+        <div className="bg-light">
             <Navigation></Navigation>
             <Banner></Banner>
             <Services></Services>
