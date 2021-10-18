@@ -1,13 +1,13 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 import Footer from '../Footer/Footer';
 import Navigation from '../Navigation/Navigation';
 import './Login.css';
 
 const Login = () => {
-    const { handleEmail, handlePassword, error, handleLogin } = useFirebase();
+    const { handleEmail, handlePassword, error, handleLogin } = useAuth();
 
 
     return (

@@ -12,8 +12,6 @@ const useFirebase = () => {
 
     const auth = getAuth();
 
-    const googleProvider = new GoogleAuthProvider();
-
     // handle email
     const handleEmail = event => {
         setEmail(event.target.value);
@@ -38,6 +36,7 @@ const useFirebase = () => {
     }
     // sign in using google
     const signInUsingGoogle = () => {
+        const googleProvider = new GoogleAuthProvider();
         signInWithPopup(auth, googleProvider)
             .then(result => setUser(result.user))
             .catch(error => setError(error.message))

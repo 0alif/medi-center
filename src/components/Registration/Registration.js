@@ -4,10 +4,10 @@ import { Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import Footer from '../Footer/Footer';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 
 const Registration = () => {
-    const { handleEmail, handlePassword, handleRegister, error, signInUsingGoogle } = useFirebase();
+    const { handleEmail, handlePassword, handleRegister, error, signInUsingGoogle } = useAuth();
 
     return (
         <div className="bg-light">
