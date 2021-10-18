@@ -1,9 +1,18 @@
 import React from 'react';
+import { useHistory } from 'react-router';
+import notFound from '../../images/not_found_.svg';
 
 const NotFound = () => {
+    const history = useHistory();
+    const backToHome = () => {
+        history.push('/')
+    }
     return (
         <div className="App">
-            404 Page not found
+            <div>
+                <img className="mt-5" src={notFound} alt="" width="50%" />
+            </div>
+            <button onClick={backToHome} className="btn btn-secondary mt-5">Back to Home</button>
         </div>
     );
 };

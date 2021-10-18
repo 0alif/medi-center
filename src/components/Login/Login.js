@@ -5,11 +5,11 @@ import useAuth from '../../hooks/useAuth';
 import Footer from '../Footer/Footer';
 import Navigation from '../Navigation/Navigation';
 import './Login.css';
+import google from '../../images/search.png';
+import fb from '../../images/facebook.png';
 
 const Login = () => {
-    const { handleEmail, handlePassword, error, handleLogin } = useAuth();
-
-
+    const { handleEmail, handlePassword, error, handleLogin, signInUsingGoogle, signInUsingFacebook } = useAuth();
     return (
         <div className="bg-light">
             <Navigation></Navigation>
@@ -27,6 +27,8 @@ const Login = () => {
                         Login
                     </button>
                     <p className="text-danger"><Link to="/register">Don't have any account?</Link></p>
+                    <img onClick={signInUsingGoogle} className="icon" src={google} alt="" />
+                    <img onClick={signInUsingFacebook} className="icon" src={fb} alt="" />
                 </Form>
             </div>
             <Footer></Footer>

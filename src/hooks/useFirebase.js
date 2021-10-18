@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged, FacebookAuthProvider } from "firebase/auth";
 import initializeAuthentication from "../components/firebase/firebase.init";
 
 initializeAuthentication();
@@ -41,6 +41,13 @@ const useFirebase = () => {
             .then(result => setUser(result.user))
             .catch(error => setError(error.message))
     }
+    // sign in using facebook
+    const signInUsingFacebook = () => {
+        const facebookProvider = new FacebookAuthProvider();
+        signInWithPopup(auth, facebookProvider)
+            .then(result => setUser(result.user))
+            .catch(error => setError(error.message))
+    }
     // manage signed-in user
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, user => {
@@ -66,6 +73,7 @@ const useFirebase = () => {
         handleRegister,
         handleLogin,
         signInUsingGoogle,
+        signInUsingFacebook,
         logOut
     }
 }

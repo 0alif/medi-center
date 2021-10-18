@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import Footer from '../Footer/Footer';
 import useAuth from '../../hooks/useAuth';
+import google from '../../images/search.png';
+import fb from '../../images/facebook.png';
 
 const Registration = () => {
-    const { handleEmail, handlePassword, handleRegister, error, signInUsingGoogle } = useAuth();
-
+    const { handleEmail, handlePassword, handleRegister, error, signInUsingGoogle, signInUsingFacebook } = useAuth();
     return (
         <div className="bg-light">
             <Navigation></Navigation>
@@ -29,7 +30,8 @@ const Registration = () => {
                         Sign in
                     </button>
                     <p className="text-danger"><Link to="/login">Already have an account?</Link></p>
-                    <button onClick={signInUsingGoogle}>Google</button>
+                    <img onClick={signInUsingGoogle} className="icon" src={google} alt="" />
+                    <img onClick={signInUsingFacebook} className="icon" src={fb} alt="" />
                 </Form>
             </div>
             <Footer></Footer>
