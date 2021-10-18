@@ -1,8 +1,18 @@
 import React from 'react';
+import { useParams } from "react-router"
 import './Service.css';
 
 const Service = ({ product }) => {
+
+    const { serviceId } = useParams();
+
     const { name, details, img } = product;
+
+    const handleDetails = () => {
+        console.log('clicked', serviceId)
+    }
+
+
     return (
         <div>
             <div className="col">
@@ -13,7 +23,7 @@ const Service = ({ product }) => {
                         <p className="card-text">{details}</p>
                     </div>
                     <div className="ms-3">
-                        <button className="btn btn-secondary">Show Details →</button>
+                        <button onClick={handleDetails} className="btn btn-secondary">Show Details →</button>
                     </div>
                 </div>
             </div>
