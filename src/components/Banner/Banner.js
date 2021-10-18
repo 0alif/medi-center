@@ -14,7 +14,6 @@ const Banner = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img className="hero-img" src={img1} alt="..." />
-                        {/* className="d-block w-100" */}
                         <div className="banner carousel-caption d-none d-md-block">
                             <h1 className="hero-light">Your Future is Clear</h1>
                             <h1 className="hero-text">Ophthalmic Clinic</h1>
