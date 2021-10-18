@@ -6,6 +6,7 @@ import './Services.css';
 const Services = () => {
     const [data, setData] = useState([]);
     const history = useHistory();
+
     // load data form public folder
     useEffect(() => {
         fetch('./fakeDB.json')

@@ -1,44 +1,50 @@
 [
-    {
-       "id":1,
-       "name":"PREVENTIVE CARE",
-       "details":"Specialist consultations, optometry and vision therapy, selection of lenses and glasses, children’s ophthalmology.",
-       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2021/05/image_10.jpg",
-       "description":"Effective and affordable treatment for non-life threatening illnesses"
-    },
-    {
-       "id":2,
-       "name":"DIAGNOSTICS TESTS",
-       "details":"Visual acuity test, intraocular pressure measurement, corneal thickness measurement, eye fundus examination.",
-       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_03-2.jpg",
-       "description":"Effective and affordable treatment for non-life threatening illnesses"
-    },
-    {
-       "id":3,
-       "name":"OPHTHALMIC TREATMENTS",
-       "details":"Laser treatments such as retinal laser coagulation, capsulotomy, and anti-glaucoma treatments.",
-       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_06.jpg",
-       "description":"Effective and affordable treatment for non-life threatening illnesses"
-    },
-    {
-       "id":4,
-       "name":"OPHTHALMIC SURGERIES",
-       "details":"Cataract and glaucoma surgeries, vitrectomy, strabismus suirgeries, and multi-pediatric and combined surgeries.",
-       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2021/05/image_09.jpg",
-       "description":"Effective and affordable treatment for non-life threatening illnesses"
-    },
-    {
-       "id":5,
-       "name":"PEDIATRIC SERVICES",
-       "details":"Dedicated to helping you and your child stay healthy through every milestone",
-       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_04-1.jpg",
-       "description":"Effective and affordable treatment for non-life threatening illnesses"
-    },
-    {
-       "id":6,
-       "name":"PHYSICAL THERAPY",
-       "details":"Reduce pain, restore function to the body and prevent future injury",
-       "img":"https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_05.jpg",
-       "description":"Effective and affordable treatment for non-life threatening illnesses"
-    }
- ]
+   {
+      "id": 1,
+      "name": "PREVENTIVE CARE",
+      "details": "Specialist consultations, optometry and vision therapy, selection of lenses and glasses, children’s ophthalmology.",
+      "img": "https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2021/05/image_10.jpg",
+      "description": "Effective and affordable treatment for non-life threatening illnesses",
+      "moreDetail": "When you need treatment for minor injuries and illnesses, but the doctor is not available, Medicenter immediate care services have you covered. Our immediate care locations combine easy-to-access services with our well-known standards for delivering the best care."
+   },
+   {
+      "id": 2,
+      "name": "DIAGNOSTICS TESTS",
+      "details": "Visual acuity test, intraocular pressure measurement, corneal thickness measurement, eye fundus examination.",
+      "img": "https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_03-2.jpg",
+      "description": "Effective and affordable treatment for non-life threatening illnesses",
+      "moreDetail": "When you need treatment for minor injuries and illnesses, but the doctor is not available, Medicenter immediate care services have you covered. Our immediate care locations combine easy-to-access services with our well-known standards for delivering the best care."
+   },
+   {
+      "id": 3,
+      "name": "OPHTHALMIC TREATMENTS",
+      "details": "Laser treatments such as retinal laser coagulation, capsulotomy, and anti-glaucoma treatments.",
+      "img": "https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_06.jpg",
+      "description": "Effective and affordable treatment for non-life threatening illnesses",
+      "moreDetail": "When you need treatment for minor injuries and illnesses, but the doctor is not available, Medicenter immediate care services have you covered. Our immediate care locations combine easy-to-access services with our well-known standards for delivering the best care."
+   },
+   {
+      "id": 4,
+      "name": "OPHTHALMIC SURGERIES",
+      "details": "Cataract and glaucoma surgeries, vitrectomy, strabismus suirgeries, and multi-pediatric and combined surgeries.",
+      "img": "https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2021/05/image_09.jpg",
+      "description": "Effective and affordable treatment for non-life threatening illnesses",
+      "moreDetail": "When you need treatment for minor injuries and illnesses, but the doctor is not available, Medicenter immediate care services have you covered. Our immediate care locations combine easy-to-access services with our well-known standards for delivering the best care."
+   },
+   {
+      "id": 5,
+      "name": "PEDIATRIC SERVICES",
+      "details": "Dedicated to helping you and your child stay healthy through every milestone",
+      "img": "https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_04-1.jpg",
+      "description": "Effective and affordable treatment for non-life threatening illnesses",
+      "moreDetail": "When you need treatment for minor injuries and illnesses, but the doctor is not available, Medicenter immediate care services have you covered. Our immediate care locations combine easy-to-access services with our well-known standards for delivering the best care."
+   },
+   {
+      "id": 6,
+      "name": "PHYSICAL THERAPY",
+      "details": "Reduce pain, restore function to the body and prevent future injury",
+      "img": "https://quanticalabs.com/wp_themes/medicenter-ophthalmologist/files/2018/10/image_05.jpg",
+      "description": "Effective and affordable treatment for non-life threatening illnesses",
+      "moreDetail": "Since its founding we become an integral part of the city, advancing our mission of providing access to compassionate care to our communities. Today patients find care that combines world-class medicine with compassion. Since its founding we become an integral part of the city, advancing our mission of providing access to compassionate care."
+   }
+]

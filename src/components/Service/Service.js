@@ -1,18 +1,15 @@
 import React from 'react';
-import { useParams } from "react-router"
+import { useHistory } from 'react-router';
 import './Service.css';
 
 const Service = ({ product }) => {
+    const history = useHistory();
+    const { id, name, details, img } = product;
 
-    const { serviceId } = useParams();
-
-    const { name, details, img } = product;
-
+    // go to services details
     const handleDetails = () => {
-        console.log('clicked', serviceId)
+        history.push(`/service/${id}`);
     }
-
-
     return (
         <div>
             <div className="col cards">
