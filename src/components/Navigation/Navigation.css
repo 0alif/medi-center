@@ -2,6 +2,10 @@
   font-size: 40px;
   color: goldenrod;
   margin-right: 30px;
+  text-decoration: none;
+}
+.web-name:hover {
+  color: goldenrod;
 }
 .navigation {
   color: black;
