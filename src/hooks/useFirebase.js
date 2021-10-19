@@ -9,6 +9,7 @@ const useFirebase = () => {
     const [error, setError] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [isLoading, setIsLoading] = useState(true);
 
     const auth = getAuth();
 
@@ -23,30 +24,38 @@ const useFirebase = () => {
     // create user with email & password
     const handleRegister = event => {
         event.preventDefault();
+        setIsLoading(true);
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => setUser(result.user))
             .catch(error => setError(error.message))
+            .finally(() => setIsLoading(false));
     }
     // login with email & password
     const handleLogin = event => {
         event.preventDefault();
+        setIsLoading(true);
         signInWithEmailAndPassword(auth, email, password)
             .then(result => setUser(result.user))
             .catch(error => setError(error.message))
+            .finally(() => setIsLoading(false));
     }
     // sign in using google
     const signInUsingGoogle = () => {
+        setIsLoading(true)
         const googleProvider = new GoogleAuthProvider();
         signInWithPopup(auth, googleProvider)
             .then(result => setUser(result.user))
             .catch(error => setError(error.message))
+            .finally(() => setIsLoading(false));
     }
     // sign in using facebook
     const signInUsingFacebook = () => {
+        setIsLoading(true)
         const facebookProvider = new FacebookAuthProvider();
         signInWithPopup(auth, facebookProvider)
             .then(result => setUser(result.user))
             .catch(error => setError(error.message))
+            .finally(() => setIsLoading(false));
     }
     // manage signed-in user
     useEffect(() => {
@@ -57,7 +66,8 @@ const useFirebase = () => {
             else {
                 setUser({})
             }
-        })
+            setIsLoading(false);
+        });
         return () => unsubscribed;
     }, [])
     // log out
@@ -68,6 +78,7 @@ const useFirebase = () => {
     return {
         user,
         error,
+        isLoading,
         handleEmail,
         handlePassword,
         handleRegister,
