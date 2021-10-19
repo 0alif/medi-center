@@ -1,0 +1,44 @@
+[debug] [2021-10-19T15:25:48.027Z] ----------------------------------------------------------------------
+[debug] [2021-10-19T15:25:48.053Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\AliF\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-10-19T15:25:48.053Z] CLI Version:   9.20.0
+[debug] [2021-10-19T15:25:48.054Z] Platform:      win32
+[debug] [2021-10-19T15:25:48.054Z] Node Version:  v14.17.6
+[debug] [2021-10-19T15:25:48.921Z] Time:          Tue Oct 19 2021 21:25:48 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-19T15:25:48.922Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-19T15:25:49.229Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-19T15:25:49.229Z] > authorizing via signed-in user (alifhossain003@gmail.com)
+[debug] [2021-10-19T15:25:49.229Z] [iam] checking project healthcare-related-websi-6dcf6 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-10-19T15:25:49.232Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-19T15:25:49.232Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T15:25:51.202Z] <<< HTTP RESPONSE 200 {"date":"Tue, 19 Oct 2021 15:25:51 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T15:25:51.417Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/healthcare-related-websi-6dcf6:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-10-19T15:25:52.640Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 15:25:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=983","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T15:25:52.642Z] > refreshing access token with scopes: []
+[debug] [2021-10-19T15:25:52.642Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T15:25:52.853Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Tue, 19 Oct 2021 15:25:52 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T15:25:53.364Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/healthcare-related-websi-6dcf6 [none]
+[debug] [2021-10-19T15:25:54.081Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/healthcare-related-websi-6dcf6 200
+[debug] [2021-10-19T15:25:54.081Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/healthcare-related-websi-6dcf6 {"projectId":"healthcare-related-websi-6dcf6","projectNumber":"366931244728","displayName":"healthcare-related-website","name":"projects/healthcare-related-websi-6dcf6","resources":{"hostingSite":"healthcare-related-websi-6dcf6"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'healthcare-related-websi-6dcf6'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-10-19T15:25:54.087Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-19T15:25:54.087Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T15:25:54.292Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 19 Oct 2021 15:25:54 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T15:25:54.590Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/healthcare-related-websi-6dcf6/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-10-19T15:26:07.577Z] Error: socket hang up
+    at connResetException (internal/errors.js:628:14)
+    at TLSSocket.socketOnEnd (_http_client.js:499:23)
+    at TLSSocket.emit (events.js:412:35)
+    at TLSSocket.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[error] 
+[error] Error: Server Error. socket hang up
