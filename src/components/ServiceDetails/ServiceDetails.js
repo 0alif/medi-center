@@ -22,7 +22,7 @@ const ServiceDetails = () => {
             <Navigation></Navigation>
             <div className="row container my-5">
                 <div className="col-sm-12 col-md-6">
-                    <img className="img-fluid" src={item.img} alt="" />
+                    <img className="img-fluid pb-3" src={item.img} alt="" />
                     <h5>{item.name}</h5>
                     <p>{item.details}</p>
                 </div>

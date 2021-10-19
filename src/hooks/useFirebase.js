@@ -50,7 +50,7 @@ const useFirebase = () => {
     }
     // manage signed-in user
     useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, user => {
+        const unsubscribed = onAuthStateChanged(auth, user => {
             if (user) {
                 setUser(user)
             }
@@ -58,7 +58,7 @@ const useFirebase = () => {
                 setUser({})
             }
         })
-        return () => unsubscribe;
+        return () => unsubscribed;
     }, [])
     // log out
     const logOut = () => {
