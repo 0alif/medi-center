@@ -1,0 +1,10 @@
+.about-text {
+  padding-bottom: 20px;
+  text-decoration: underline gold;
+}
+.motto {
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: grey;
+}
