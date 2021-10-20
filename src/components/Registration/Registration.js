@@ -13,7 +13,7 @@ const Registration = () => {
     return (
         <div className="bg-light">
             <Navigation></Navigation>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center mb-4">
                 <Form className="mt-5 text-center">
                     <h3 className="register">Please Register</h3>
                     <Form.Group className="mb-3" controlId="formBasicText">

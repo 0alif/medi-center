@@ -7,7 +7,7 @@ const Navigation = () => {
     const { user, logOut } = useAuth();
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <div>
                         <span className=""><Link to="/" className="web-name">MediCenter</Link></span>
